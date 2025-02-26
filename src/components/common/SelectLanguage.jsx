@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Lang from "./../assets/lang.svg?react";
-import DropDown from "./../assets/dropdown.svg?react";
+import Lang from "./../../assets/lang.svg?react";
+import DropDown from "./../../assets/dropdown.svg?react";
 
 const SelectLanguage = () => {
   const languages = [

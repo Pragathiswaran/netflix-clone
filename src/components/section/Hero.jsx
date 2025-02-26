@@ -1,6 +1,7 @@
 import React from 'react'
-import Navbar from './Navbar'
-import '../styles/index.css'
+import Navbar from '../layout/Navbar'
+import './../../styles/index.css'
+import CustomForm from './../forms/CustomForm'
 
 const Hero = () => {
   return (
@@ -11,6 +12,7 @@ const Hero = () => {
             <h1 className=' text-6xl text-white text-center font-bold'>Unlimited movies, TV shows, and more.</h1>
             <p className='text-white text-lg font-semibold mt-2'>Starts at ₹149. Cancel at any time.</p>`
         </div>
+        <CustomForm />
      </main>
     </>
   )
