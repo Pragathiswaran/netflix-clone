@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+body{
+    font-family: sans-serif;
+}
+
+.hero {
+    position: relative;
+    height: 740px;
+    background: url('./../public/netflix.jpg') no-repeat center center/cover;
+    box-shadow: inset 10px 30px 400px 200px rgba(0, 0, 0, 0.9);
+}
+
+@utility text-outline {
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+}
+
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
