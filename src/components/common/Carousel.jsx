@@ -2,6 +2,10 @@ import React from 'react'
 import MoviePoster from '/pushpa2.jpg'
 
 const Carousel = () => {
+
+  const next = () => {}
+
+  const prev = () => {}
   return (
     <>
     <section className='w-full flex flex-col gap-y-6 mx-32'>
