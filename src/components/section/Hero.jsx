@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from '../layout/Navbar'
-import './../../styles/index.css'
-import CustomForm from './../forms/CustomForm'
+import {Navbar} from '../layout'
+// import './../../styles/index.css'
+import {CustomForm} from './../forms'
 
 const Hero = () => {
   return (

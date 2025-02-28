@@ -1,14 +1,14 @@
 import React from 'react'
-import Hero from '../components/section/Hero';
-import Footer from '../components/layout/Footer';
-import Carousel from '../components/common/Carousel';
+import { Hero } from '../components/section';
+import { Footer } from '../components/layout';
+import { Carousel } from '../components/common';
 
 const Home = () => {
   return (
     <>
-        <div className='bg-black'>
+        <div className='bg-black overflow-hidden'>
             <Hero />
-            <div className='py-60'>
+            <div className='my-20'>
                 <Carousel />
             </div>
         </div>
